@@ -3,7 +3,7 @@
  * Plugin Name: Custom Slick Slider Settings
  * Description: Adds settings to customize Slick slider dots, arrows, autoplay, and title display. Use Shortcode [custom_post_slider]
  * Version: 1.0
- * Author: Unique Schools
+ * Author: Shubham Dixit
  */
 
 if (!defined('ABSPATH')) exit;
