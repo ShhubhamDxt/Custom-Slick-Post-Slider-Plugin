@@ -1,0 +1,57 @@
+.custom-slider .slide.slick-slide{ max-height: 400px; overflow: hidden; position: relative;}
+.custom-slider .slide.slick-slide img{ object-fit: cover; width: 100%; /* height: 450px;*/}
+
+.custom-slider ul.slick-dots{ display: flex; justify-content: flex-start; margin: 0; padding: 0; list-style: none; /*position: absolute;*/ margin-left: 5px;}
+.custom-slider ul.slick-dots li{ /*width: 20px;*/ float: left;}
+.custom-slider ul.slick-dots li .custom-dot i{ font-size: 13px; }
+/*.custom-slider ul.slick-dots li button{ font-size: 0!important; }*/
+/*.slick-dots li button:before{ content: ''; }*/
+
+.slide-overlay-text{ position: absolute; bottom: 0; padding: 10px; display: block; width: 100%; background: rgba(0, 0, 0, 0.3);}
+
+.slick-arrow{ position: absolute; z-index: 1; top: 50%; box-shadow: none;}
+.slick-prev, .slick-next { background-color: transparent; border: none; font-size: 0px; color: #333; width: 50px; height: 50px;}
+.slick-next{ right: 0;}
+.slick-prev{ left: 0;}
+.slick-prev:hover, .slick-next:hover { color: #555;}
+.slick-prev:before, .slick-next:before { font-size: 40px; }
+
+.slick-dots {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Space between dots and play/pause icon */
+}
+
+.slick-control {
+    font-size: 20px;
+    color: var(--dot-color, #aaaaaa); /* Match dot color */
+    cursor: pointer;
+    background: none;
+    padding: 5px;
+    border-radius: 50%;
+    transition: color 0.3s ease;
+}
+
+.slick-control:hover {
+    /*color: var(--active-dot-color, #787d33);*/ /* Match active dot color */
+}
+
+ul.slick-dots i#slick-play-pause{ margin-top: 13px; font-size: 15px; color: var(--active-dot-color, #e30689); }
+
+/*-------------------*/
+
+/*.slick-slider-settings-form { max-width: 600px; background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); }
+
+.settings-section { margin-bottom: 20px; padding: 15px; border: 1px solid #ddd; border-radius: 5px; background: #f9f9f9; display: flex; gap: 15px; flex-wrap: wrap; }
+
+.settings-section h3 { margin-top: 0; font-size: 18px; width: 100%; }
+
+.settings-section label { display: flex; flex-direction: row; flex-wrap: wrap; gap: 15px; align-items: center; margin-right: 10px; font-weight: 500; }
+
+.settings-section input,
+.settings-section select { padding: 8px; border: 1px solid #ccc; border-radius: 4px;}
+.wp-picker-container{ display: flex; }*/
+
+#slick-play-pause { transform: translateX(0); border: none; margin-top: 2px; cursor: pointer; font-size: 16px; padding: 0; width: 20px; text-align: center; /*color: var(--slick-active-dot-color, #000) !important;*/ }
+.slick-controls-wrapper{ display:flex; align-items:center; }
